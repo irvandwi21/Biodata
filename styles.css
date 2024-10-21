@@ -1,0 +1,40 @@
+body {
+    margin: 20px;
+    background-color: #f8f9fa;
+    font-family: Arial, sans-serif;
+}
+
+.profile-img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 2px solid #007bff;
+    margin-bottom: 20px;
+}
+
+h1, h2 {
+    color: #007bff;
+    margin-bottom: 15px;
+}
+
+.section {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+.list-group-item {
+    border: none;
+    padding: 10px;
+}
+
+.list-group-item:hover {
+    background-color: #f1f1f1;
+}
+
+p {
+    line-height: 1.6;
+}
